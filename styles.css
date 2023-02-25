@@ -1,0 +1,30 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  width: 21rem;
+  margin-left: 40%;
+  margin-top: 2.5%;
+  background-color: hsl(0, 0%, 100%);
+  /* margin-right: 60%; */
+  padding: 20px;
+  padding-bottom: 40px;
+  align-items: center;
+  border-radius: 10px;
+  box-shadow: 2px 4px 20px hsl(220, 15%, 55%);
+}
+img {
+  height: 20rem;
+  width: 20rem;
+  border-radius: 15px;
+}
+.content {
+  padding: 0 10px 10px 10px;
+}
+.content .child {
+  text-align: center;
+  color: hsl(218, 44%, 22%);
+}
+p {
+  font-size: 15px;
+}
